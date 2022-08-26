@@ -1,17 +1,17 @@
 #user input
-lenght = float(input('Pike-perch lenght: '))
+length = float(input('Pike-perch length in cm: '))
 
-#if lenght is over 37
-if lenght>=37:
+#if length is over 37
+if length>=37:
 
     #results
     print('All good.')
 
 #if lenght is under 37 and not equal
-if 37!=lenght<=37:
+if 37!=length<=37:
 
-    #calculate missing lenght
-    missing = 37-lenght
+    #calculate missing length
+    missing = 37-length
 
     #results
-    print(f'Too small. It needs to grow {missing}')
+    print(f'Too small. It needs to grow {missing}cm.')
