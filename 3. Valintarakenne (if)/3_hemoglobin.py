@@ -1,6 +1,6 @@
 # introduction to the program
 print(f'\nHi! Lets check if your hemoglobin is ok!')
-print(f'\nFirst we need to know your biological sex.\nPlease write M for male & F for female.\n')
+print(f'\nFirst we need to know your biological sex.\nPlease write M for male & F for female and press ENTER.\n')
 
 # user input for biological sex
 sex = str(input('I am: '))
