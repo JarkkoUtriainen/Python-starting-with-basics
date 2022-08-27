@@ -36,5 +36,3 @@ elif check_year_4 and not check_year_100:
 # if given year is not divisible by 100 or 4 and give results for the user
 else:
     print(f'\nYear {year_show} is not a leap year.')
-
-
