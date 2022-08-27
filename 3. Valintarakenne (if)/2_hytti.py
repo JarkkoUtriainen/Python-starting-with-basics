@@ -1,7 +1,7 @@
-#user input
+# user input
 cabin_class = str(input('Anna hytti luokka ja paina ENTER: '))
 
-#if statements for different option
+# if statements for different option
 if cabin_class == 'LUX' or cabin_class == 'lux':
     print(f'LUX on parvekkeellinen hytti yläkannella.')
 
@@ -14,6 +14,6 @@ elif cabin_class == 'B' or cabin_class == 'b':
 elif cabin_class == 'C' or cabin_class == 'c':
     print(f'C on ikkunaton hytti autokannen alapuolella.')
 
-#wrong input
+# wrong input
 else:
     print(f'Virheellinen hyttiluokka')
