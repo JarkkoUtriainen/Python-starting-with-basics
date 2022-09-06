@@ -1,6 +1,10 @@
+# this is not a secure way to ask passwords! just for training
+# starting values
 N = 0
+stop = 0
 
-while N <= 5 or key not True:
+# user input and repeat condition
+while N < 5 and stop < 1:
     ac = input('Käyttäjätunnus: ')
     pw = input('Salasana: ')
 
@@ -8,10 +12,11 @@ while N <= 5 or key not True:
 
     key = ac == 'python' and pw == 'rules'
 
+    # if correct
     if key:
-         print('oikein')
+        print('\nTervetuloa\n')
 
+        stop = stop + 1
+    # if wrong
     else:
-        print('väärin')
-
-
+        print('\nPääsy evätty\n')
