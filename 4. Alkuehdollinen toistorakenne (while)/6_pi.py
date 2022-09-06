@@ -6,7 +6,7 @@ n = 0
 L = 0
 
 # program repeats given calculation
-while N>L:
+while N > L:
     x = random.random()
     y = random.random()
 
@@ -18,7 +18,7 @@ while N>L:
         n = n + 1
 
 # calculate pi
-Pi = 4*n/N
+Pi = 4 * n / N
 
 # print results
 print(f'{Pi}')

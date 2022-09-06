@@ -12,7 +12,7 @@ while stop < 1:
     # user input
     number = input('Anna numero: ')
 
-    #stop condition
+    # stop condition
     if number == '':
 
         stop = stop + 1
