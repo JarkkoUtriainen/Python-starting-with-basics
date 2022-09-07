@@ -36,4 +36,4 @@ while stop < 1:
             small = fnumber
 
 # print results
-print(f'Isoin numero: {int(big)}\nPienin numero: {int(small)}')
+print(f'Isoin numero: {big}\nPienin numero: {small}')
