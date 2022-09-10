@@ -1,12 +1,13 @@
+# main program is a copy from assignment 5
 import random
 
 stop = False
 numbers = []
 
-user = input('Anna luku (! merkki arpoo 10 lukua): ')
+user = input('Anna luku (! merkki arpoo 5 lukua): ')
 
 if user == '!':
-    numbers = random.sample(range(99), 10)
+    numbers = random.sample(range(99), 5)
 else:
     numbers.append(int(user))
     while not stop:
@@ -17,10 +18,10 @@ else:
             numbers.append(int(user_repeat))
 
 
-def lst_2():
-    numbers_list = [i for i in numbers if i % 2 != 0]
-    return numbers_list
+def numbers_sum():
+    nbrs_sum = sum(numbers)
+    return nbrs_sum
 
 
-print(f'Kaikki numerot: {numbers}')
-print(f'Karsitut numerot: {lst_2()}')
+print(f'Saadut numerot: {numbers}')
+print(f'Numeroiden summa: {numbers_sum()}')
