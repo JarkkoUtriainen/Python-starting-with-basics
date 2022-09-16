@@ -34,4 +34,4 @@ print('tyypit: ', tyypit)
 
 for tyyppi in tyypit:
     lkm = haeKenttienLkm(maakoodi, tyyppi[0])
-    print(f'{tyyppi[0]} lukumäärä: ', lkm)
+    print(f'{tyyppi[0]} lukumäärä: {lkm[0]}')
