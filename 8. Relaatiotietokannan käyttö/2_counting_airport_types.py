@@ -26,11 +26,9 @@ def haeKenttienLkm(maakoodi, tyyppi):
     tulos = kursori.fetchone()
     return tulos
 
-
-maakoodi = 'Fi'
+maakoodi = input('Anna maakoodi: ')
 
 tyypit = haeTyypit()
-print('tyypit: ', tyypit)
 
 for tyyppi in tyypit:
     lkm = haeKenttienLkm(maakoodi, tyyppi[0])

@@ -20,7 +20,6 @@ def find_airport(icao):
     tulos = kursori.fetchone()
     return tulos
 
-
 user = input('Anna ICAO: ')
 kentta = find_airport(user)
 if kentta is not None:
