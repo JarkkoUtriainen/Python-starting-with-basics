@@ -2,8 +2,8 @@ class Car:
     def __init__(self, reg, topSpeed):
         self.reg = reg
         self.topSpeed = topSpeed
-    speed = 0
-    travel = 0
+        self.speed = 0
+        self.travel = 0
 
 
 car = Car("ABC-123", 142)
